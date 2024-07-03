@@ -14,7 +14,9 @@
     "ghcr.io/devcontainers/features/python:1": {},
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "cuda-toolkit,cmake"
-    }
+    },
+    "ghcr.io/devcontainers-contrib/features/hyperfine:1": {},
+    "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
   },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
