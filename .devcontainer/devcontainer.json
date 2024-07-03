@@ -11,8 +11,9 @@
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/git-lfs:1": {},
     "ghcr.io/ebaskoro/devcontainer-features/emscripten:1": {},
+    "ghcr.io/devcontainers/features/python:1": {},
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-      "packages": "cuda-toolkit"
+      "packages": "cuda-toolkit,cmake"
     }
   },
 
@@ -20,7 +21,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  // "postCreateCommand": "poetry install",
+  "postCreateCommand": "poetry install",
   "runArgs": ["--gpus", "all"]
 
   // Configure tool-specific properties.

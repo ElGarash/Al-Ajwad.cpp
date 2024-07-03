@@ -1,0 +1,12 @@
+diff --git a/config.json b/config.json
+index fe1670c..6aed645 100644
+--- a/config.json
++++ b/config.json
+@@ -44,5 +44,6 @@
+   "transformers_version": "4.41.2",
+   "use_cache": true,
+   "use_weighted_layer_sum": false,
+-  "vocab_size": 51865
++  "vocab_size": 51865,
++  "max_length": 448
+ }
