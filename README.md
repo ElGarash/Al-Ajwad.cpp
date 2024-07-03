@@ -2,6 +2,10 @@
 
 Running the model using whisper.cpp.
 
+> [!TIP]
+> All the steps here can be applied to any whisper model hosted on huggingface.
+
+
 # Prerequisites
 
 1. Open the devcontainer for easy setup (Optional).
